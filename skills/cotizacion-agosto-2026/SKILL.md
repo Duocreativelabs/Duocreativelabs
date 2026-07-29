@@ -46,6 +46,7 @@ No copiar precios antiguos desde otras cotizaciones. No cambiar colores, tipogra
 
 - Servicios independientes se acumulan.
 - Planes Basic, Pro y Premium son mutuamente excluyentes.
+- Google Business Profile es un servicio independiente de pago único por `$300 CAD`, ubicado inmediatamente después de Optimización de Redes Sociales.
 - Cada selección visible muestra un ticket morado `SELECCIONADO / SELECTED` y su valor.
 - Mostrar siempre un desglose y el total de productos.
 - Al deseleccionar, remover el ticket y restar exactamente el valor.
