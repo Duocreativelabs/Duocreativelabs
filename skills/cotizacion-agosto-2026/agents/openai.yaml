@@ -1,0 +1,7 @@
+
+interface:
+  display_name: "Cotización Agosto 2026"
+  short_description: "Crea y publica cotizaciones Duo con freeze y Stripe"
+  brand_color: "#F5AA20"
+  default_prompt: "Usa $cotizacion-agosto-2026 para crear una cotización de cliente con Webhub, Stripe, freeze HTML y TXT privado."
+
