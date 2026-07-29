@@ -23,6 +23,7 @@ El payload mínimo debe identificar cliente, folio, slug, idioma, selecciones y 
 - No confiar en precios enviados por el navegador.
 - Mantener `gbp` como servicio de pago único por `$300 CAD`, separado de la optimización de redes sociales.
 - Mantener una sola sección `MONTHLY RETAINER` que agrupe Social Media Automation, Mantención Meta Ads del primer mes y Mantención Meta Ads desde el segundo mes.
+- Mantener la imagen de contexto de Hebron debajo del texto del proyecto, centrada, responsiva y con el mismo tratamiento visual en ES/EN.
 - No aceptar dos planes mensuales simultáneos.
 - No aceptar anticipo si el subtotal es menor de `$1,000 CAD`.
 - No llamar “pagado” a una sesión de Checkout creada.
@@ -125,5 +126,11 @@ Corrección de presentación incorporada:
 - Se eliminó la separación visual entre Social Media Automation y Mantención Meta Ads.
 - Existe una sola cabecera `MONTHLY RETAINER / SOCIAL MEDIA AUTOMATION & META ADS`.
 - Dentro de ella aparecen los planes Basic/Pro/Premium, el primer mes de mantención gratis con setup y la mantención de `$200 CAD` desde el segundo mes.
+
+Recurso visual de Claudia incorporado:
+
+- URL Cloudinary: `https://res.cloudinary.com/dk2sfqima/image/upload/v1785298896/hebron_dndebr.png`.
+- Ubicación: inmediatamente debajo de `Contexto del Proyecto / Project Context`.
+- Presentación: centrada, ancho máximo de `680px`, adaptable al móvil, borde suave, radio de `10px` y sombra discreta.
 
 No asumir otras correcciones de Claudia; aplicarlas cuando el usuario entregue la lista.
