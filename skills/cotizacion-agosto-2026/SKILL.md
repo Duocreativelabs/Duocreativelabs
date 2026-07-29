@@ -48,6 +48,8 @@ No copiar precios antiguos desde otras cotizaciones. No cambiar colores, tipogra
 - Servicios independientes se acumulan.
 - Planes Basic, Pro y Premium son mutuamente excluyentes.
 - Google Business Profile es un servicio independiente de pago único por `$300 CAD`, ubicado inmediatamente después de Optimización de Redes Sociales.
+- Las publicaciones de Google Business Profile son un producto distinto de los blogs del sitio web. El setup puede incluir una promoción inicial explícita; la continuidad mensual debe modelarse como un ítem independiente.
+- Cuando una captura técnica pueda reconstruirse con fidelidad, preferir HTML/CSS nativo, responsive y accesible en lugar de incrustar el PNG dentro de la cotización.
 - Agrupar Social Media Automation y las dos etapas de Mantención Meta Ads bajo una sola sección visual `MONTHLY RETAINER`; no intercalar servicios mensuales entre los pagos únicos.
 - Cada selección visible muestra un ticket morado `SELECCIONADO / SELECTED` y su valor.
 - Mostrar siempre un desglose y el total de productos.
@@ -120,3 +122,4 @@ Considerar la entrega lista únicamente cuando se cumpla la definición de termi
 Actualizar la memoria del cliente y `BITACORA_GOKU.md`. Informar URL pública de la cotización, rutas locales, carpetas privadas y pruebas realizadas.
 
 Leer `references/contrato-operativo.md` antes de tocar n8n, Stripe o Drive.
+
