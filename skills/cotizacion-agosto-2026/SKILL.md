@@ -1,3 +1,4 @@
+
 ---
 name: cotizacion-agosto-2026
 description: Crea, modifica, publica y valida cotizaciones interactivas de Duo Creative Labs con la plantilla aprobada en agosto de 2026, reutilizando Webhub, Redis y workflows n8n existentes. Úsala cuando se solicite una cotización o quote de cliente, carrito de servicios, checkout Stripe, freeze HTML, resumen TXT o archivo privado en Google Drive.
@@ -50,7 +51,9 @@ No copiar precios antiguos desde otras cotizaciones. No cambiar colores, tipogra
 - Google Business Profile es un servicio independiente de pago único por `$300 CAD`, ubicado inmediatamente después de Optimización de Redes Sociales.
 - Las publicaciones de Google Business Profile son un producto distinto de los blogs del sitio web. El setup puede incluir una promoción inicial explícita; la continuidad mensual debe modelarse como un ítem independiente.
 - Cuando una captura técnica pueda reconstruirse con fidelidad, preferir HTML/CSS nativo, responsive y accesible en lugar de incrustar el PNG dentro de la cotización.
-- Agrupar Social Media Automation y las dos etapas de Mantención Meta Ads bajo una sola sección visual `MONTHLY RETAINER`; no intercalar servicios mensuales entre los pagos únicos.
+- Repetir un encabezado amarillo descriptivo antes de cada producto o grupo relacionado. Usar `ONE-TIME SETUP / <SERVICIO>` para pagos únicos y `MONTHLY RETAINER / <SERVICIO>` para mensuales.
+- Mantener juntas las dos etapas de Mantención Meta Ads bajo `MONTHLY RETAINER / MANTENCIÓN META ADS`.
+- Colocar `ADDITIONAL SERVICES / PRIVATE COURSE` después de todos los servicios mensuales.
 - Cada selección visible muestra un ticket morado `SELECCIONADO / SELECTED` y su valor.
 - Mostrar siempre un desglose y el total de productos.
 - Al deseleccionar, remover el ticket y restar exactamente el valor.
