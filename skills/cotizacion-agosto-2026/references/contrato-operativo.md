@@ -22,6 +22,7 @@ El payload mínimo debe identificar cliente, folio, slug, idioma, selecciones y 
 
 - No confiar en precios enviados por el navegador.
 - Mantener `gbp` como servicio de pago único por `$300 CAD`, separado de la optimización de redes sociales.
+- Mantener `gbp_posts` como servicio mensual independiente de `$100 CAD` por 2 publicaciones para Google Business Profile. No confundirlo con blogs del sitio web.
 - Mantener una sola sección `MONTHLY RETAINER` que agrupe Social Media Automation, Mantención Meta Ads del primer mes y Mantención Meta Ads desde el segundo mes.
 - Mantener la imagen de contexto de Hebron debajo del texto del proyecto, centrada, responsiva y con el mismo tratamiento visual en ES/EN.
 - No aceptar dos planes mensuales simultáneos.
@@ -133,4 +134,14 @@ Recurso visual de Claudia incorporado:
 - Ubicación: inmediatamente debajo de `Contexto del Proyecto / Project Context`.
 - Presentación: centrada, ancho máximo de `680px`, adaptable al móvil, borde suave, radio de `10px` y sombra discreta.
 
+Corrección visual y comercial posterior:
+
+- La captura SEO fue reconstruida como HTML/CSS nativo debajo de `Project Context`; no se incrusta el PNG de Cloudinary.
+- Conserva: score 73%, 4 issues críticos, seis métricas, tarjeta `HTML page`, metadatos y datos técnicos.
+- Se aclara que SEO/GEO puede llevarse sobre 90%, pero se recomienda como segunda etapa no prioritaria.
+- El setup GBP de `$300 CAD` incluye como promoción las primeras 2 publicaciones de Google Business Profile.
+- La continuidad es un producto mensual separado: `gbp_posts`, 2 publicaciones por `$100 CAD/mes`.
+- Los posts GBP nunca deben describirse como blogs del sitio web.
+
 No asumir otras correcciones de Claudia; aplicarlas cuando el usuario entregue la lista.
+
