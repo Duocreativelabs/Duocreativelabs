@@ -1,6 +1,8 @@
 
 # Contrato operativo de Cotización Agosto 2026
 
+Fuente local canónica: `D:\Agentes\Skills\cotizacion-agosto-2026`.
+
 ## Sistema de referencia validado
 
 - Plantilla visual: cotización y quote de Hebron Painting aprobados el 29 de julio de 2026.
