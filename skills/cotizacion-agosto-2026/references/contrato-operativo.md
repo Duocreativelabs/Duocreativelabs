@@ -22,6 +22,7 @@ El payload mínimo debe identificar cliente, folio, slug, idioma, selecciones y 
 
 - No confiar en precios enviados por el navegador.
 - Mantener `gbp` como servicio de pago único por `$300 CAD`, separado de la optimización de redes sociales.
+- Mantener una sola sección `MONTHLY RETAINER` que agrupe Social Media Automation, Mantención Meta Ads del primer mes y Mantención Meta Ads desde el segundo mes.
 - No aceptar dos planes mensuales simultáneos.
 - No aceptar anticipo si el subtotal es menor de `$1,000 CAD`.
 - No llamar “pagado” a una sesión de Checkout creada.
@@ -92,6 +93,7 @@ Este es el checkpoint canónico aprobado:
 
 - HTML visual servido por Webhub, no JSON ni código escapado.
 - Google Business Profile aparece después de Optimización de Redes Sociales, con desglose propio y precio de `$300 CAD`.
+- Los pagos únicos aparecen primero; el curso permanece separado; todos los servicios mensuales se presentan juntos bajo `MONTHLY RETAINER`.
 - Carrito acumulativo y plan mensual mutuamente excluyente.
 - Ticket visible en cada servicio seleccionado y total correcto.
 - Pago total obligatorio bajo `$1,000 CAD`; desde `$1,000 CAD`, pago completo o anticipo fijo de `$1,000 CAD`.
@@ -117,5 +119,11 @@ Corrección de Claudia incorporada:
 - Precio: `$300 CAD`, pago único.
 - Alcance: auditoría, información comercial, servicios/categorías, identidad visual, optimización local, reseñas/comunicación, configuración técnica y upgrade general.
 - Ejecución n8n `23812`: subtotal `$300`, solicitud de anticipo normalizada a pago completo, TXT/HTML subidos, un solo enlace Stripe y freeze estático correcto.
+
+Corrección de presentación incorporada:
+
+- Se eliminó la separación visual entre Social Media Automation y Mantención Meta Ads.
+- Existe una sola cabecera `MONTHLY RETAINER / SOCIAL MEDIA AUTOMATION & META ADS`.
+- Dentro de ella aparecen los planes Basic/Pro/Premium, el primer mes de mantención gratis con setup y la mantención de `$200 CAD` desde el segundo mes.
 
 No asumir otras correcciones de Claudia; aplicarlas cuando el usuario entregue la lista.
