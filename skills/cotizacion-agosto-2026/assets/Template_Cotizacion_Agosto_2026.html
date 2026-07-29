@@ -167,6 +167,21 @@
             border-radius: 10px;
             box-shadow: 0 8px 24px rgba(16, 16, 15, 0.10);
         }
+        .seo-audit { width:100%; max-width:680px; margin:4px auto 30px; padding:18px; box-sizing:border-box; border:1px solid var(--border); border-radius:10px; background:#f5faff; box-shadow:0 8px 24px rgba(16,16,15,.10); color:#243447; font-size:12px; }
+        .seo-head,.seo-metric-head,.seo-page-head { display:flex; justify-content:space-between; align-items:center; gap:10px; font-weight:800; }
+        .seo-critical { padding:3px 7px; margin-left:6px; border-radius:3px; background:#efbd32; color:#fff; font-size:10px; }
+        .seo-score { display:grid; grid-template-columns:160px 1fr; gap:22px; margin-top:14px; padding:16px; background:#fff; border:1px solid #d7e0e8; }
+        .seo-ring { width:116px; height:116px; margin:auto; border-radius:50%; background:conic-gradient(#efbd32 0 73%,#dce5ed 73%); display:grid; place-items:center; }
+        .seo-ring-inner { width:82px; height:82px; border-radius:50%; background:#fff; display:grid; place-content:center; text-align:center; }
+        .seo-ring-inner strong { font-size:31px; }.seo-ring-inner span { font-size:11px; }
+        .seo-metrics { display:grid; grid-template-columns:1fr 1fr; gap:14px 22px; align-content:center; }
+        .seo-track { height:7px; margin-top:5px; border-radius:6px; background:#dce5ed; overflow:hidden; }.seo-fill { height:100%; background:#1684e8; }
+        .seo-page { margin-top:12px; background:#fff; border:1px solid #d7e0e8; }.seo-page-head { padding:12px 14px; border-bottom:1px solid #d7e0e8; font-size:13px; }
+        .seo-page-body { display:grid; grid-template-columns:150px 1fr; gap:18px; padding:14px; }.seo-page-copy p { margin:0 0 8px; line-height:1.35; }.seo-label { color:#6d87a4; }.seo-url { color:#1676d2; font-weight:700; }
+        .site-preview { min-height:112px; border:1px solid #9eabb8; background:#15191e; overflow:hidden; }.site-top { display:flex; justify-content:space-between; padding:7px; background:#f4c21e; color:#111; font-size:7px; font-weight:800; }.site-nav { padding:5px 7px; background:#fff; font-size:6px; word-spacing:7px; }.site-hero { padding:14px 9px; color:#fff; background:linear-gradient(110deg,#202831,#171413); font-weight:800; }.site-hero strong { color:#fff; font-size:12px; }.site-hero span { color:#efbd32; }
+        .seo-facts { display:grid; grid-template-columns:1fr 1fr; gap:5px 18px; padding-top:8px; border-top:1px solid #d7e0e8; color:#6d87a4; }.seo-good { padding:2px 6px; border-radius:3px; background:#59bd6a; color:#fff; font-weight:800; }
+        .seo-note { margin-top:14px; padding:12px 14px; border-left:4px solid var(--gold); background:#fffaf0; line-height:1.55; }
+        @media(max-width:650px){.seo-score,.seo-page-body,.seo-metrics,.seo-facts{grid-template-columns:1fr;}}
         
         .section-title {
             font-size: 18px;
@@ -385,7 +400,8 @@
                             - Automatización de Redes Sociales<br>
                             - Optimización de Publicidad en Redes Sociales<br>
                             - <strong>Paso 2:</strong> Escalamiento con Meta Ads<br>
-                            - <strong>Paso 2:</strong> Captación de Leads Calificados
+                            - <strong>Paso 2:</strong> Captación de Leads Calificados<br>
+                            - <strong>Paso 2:</strong> Optimización SEO y GEO a futuro
                         </span>
                     </div>
                 </div>
@@ -401,58 +417,7 @@
                             <tr><td>HP02</td><td>28 Aug 2026</td></tr>
                         </table>
                     </div>
-                </div>
-            </div>
-
-            <div class="section-title">Contexto del Proyecto</div>
-            <div class="desc-block">
-                <p>Hebron Painting necesita comenzar por <strong>optimizar Facebook e Instagram</strong> para proyectar una imagen profesional, comunicar claramente sus servicios y <strong>convertir las visitas en oportunidades de contacto</strong>. Cada perfil y publicación debe generar confianza y facilitar que los clientes soliciten una cotización.</p>
-                <p style="margin-top: 10px;">Con esta base preparada, el siguiente paso será <strong>escalar mediante Meta Ads</strong>. La publicidad apoyará la captación de leads, pero su desarrollo requiere <strong>constancia, seguimiento y colaboración</strong> entre Hebron Painting y Duo Creative Labs.</p>
-            </div>
-            <div class="project-context-visual">
-                <img src="https://res.cloudinary.com/dk2sfqima/image/upload/v1785298896/hebron_dndebr.png" alt="Hebron Painting - Datos de la página y presencia digital">
-            </div>
-
-            <div class="section-title">Servicios Solicitados</div>
-            
-            <table class="items-table">
-                <thead>
-                    <tr>
-                        <th style="width:52%">Itemized Costs</th>
-                        <th class="c" style="width:8%">QTY</th>
-                        <th class="c" style="width:18%">Unit Price</th>
-                        <th class="r" style="width:22%">Amount</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="section-header"><td colspan="4">▌ ONE-TIME SETUP</td></tr>
-                    <tr>
-                        <td style="padding-top: 30px;">
-                            <div class="desc-main">Setup Profesional Meta Ads</div>
-                            <div class="desc-sub">
-                                <ul>
-                                    <li>Auditoría de la configuración existente de Business Manager, cuenta publicitaria, propietarios, permisos y métodos de pago.</li>
-                                    <li>Corrección y configuración de Facebook, Instagram y activos empresariales según las buenas prácticas vigentes de Meta.</li>
-                                    <li>Instalación o verificación de Píxel de Meta y API de Conversiones cuando corresponda.</li>
-                                    <li>Estrategia inicial de segmentación, públicos, retargeting y preparación para campañas de captación de leads.</li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td class="c" style="padding-top: 30px;">1</td>
-                        <td colspan="2" class="c" style="width: 200px; vertical-align: top; padding-top: …8580 tokens truncated…miento Digital / Hebron Painting</span>
-            <span>Duo Creative Labs · duolabs.tech</span>
-        </div>
-    </div>
-    <script>
-        let items = {
-            setup: { active: false, price: 500, type: 'onetime' },
-            opt: { active: false, price: 0, type: 'onetime' },
-            gbp: { active: false, price: 300, type: 'onetime' },
-            curso: { active: false, price: 800, type: 'onetime' },
-            rrss_basico: { active: false, price: 500, type: 'monthly' },
-            rrss_pro: { active: false, price: 700, type: 'monthly' },
-            rrss_premium: { active: false, price: 1000, type: 'monthly' }
-        };
+                </div>…10554 tokens truncated…   };
 
         let selectedNetworks = { fb: false, ig: false, li: false, tt: false, rd: false };
 
@@ -483,7 +448,8 @@
                 curso: items.curso.price,
                 rrss_basico: items.rrss_basico.price,
                 rrss_pro: items.rrss_pro.price,
-                rrss_premium: items.rrss_premium.price
+                rrss_premium: items.rrss_premium.price,
+                gbp_posts: items.gbp_posts.price
             };
             Object.keys(displayAmounts).forEach(key => {
                 const button = document.getElementById('btn-' + key);
@@ -632,6 +598,7 @@
             if(items['rrss_basico'].active) monthlyTotal += items['rrss_basico'].price;
             if(items['rrss_pro'].active) monthlyTotal += items['rrss_pro'].price;
             if(items['rrss_premium'].active) monthlyTotal += items['rrss_premium'].price;
+            if(items['gbp_posts'].active) monthlyTotal += items['gbp_posts'].price;
             
             let adsMonthly = items['setup'].active ? 200 : 0; // Mantencion mensual es 200
 
@@ -678,6 +645,7 @@
             const rowCurso = document.getElementById('row-total-curso');
             const rowMonthly = document.getElementById('row-total-monthly');
             const rowRrss = document.getElementById('row-total-rrss');
+            const rowGbpPosts = document.getElementById('row-total-gbp_posts');
             const rowBonus = document.getElementById('row-total-bonus');
 
             const valSetup = document.getElementById('val-total-setup');
@@ -688,6 +656,7 @@
             const valMonthly = document.getElementById('val-total-monthly');
             const lblRrss = document.getElementById('lbl-total-rrss');
             const valRrss = document.getElementById('val-total-rrss');
+            const valGbpPosts = document.getElementById('val-total-gbp_posts');
             const valTotal = document.getElementById('val-total');
 
             if (rowSetup) {
@@ -756,6 +725,14 @@
                     valRrss.innerText = "$" + rrssPrice.toFixed(2) + "/mes";
                 } else {
                     rowRrss.style.display = 'none';
+                }
+            }
+            if (rowGbpPosts) {
+                if (items['gbp_posts'].active) {
+                    rowGbpPosts.style.display = 'table-row';
+                    valGbpPosts.innerText = "$" + items['gbp_posts'].price.toFixed(2) + "/mes";
+                } else {
+                    rowGbpPosts.style.display = 'none';
                 }
             }
 
@@ -880,3 +857,4 @@
     </script>
 </body>
 </html>
+
