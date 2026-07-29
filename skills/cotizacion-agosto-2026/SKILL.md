@@ -39,6 +39,7 @@ No copiar precios antiguos desde otras cotizaciones. No cambiar colores, tipogra
 
 - Copiar `assets/Template_Cotizacion_Agosto_2026.html` y `assets/Template_Quote_August_2026.html` a la carpeta del cliente.
 - Sustituir datos de Hebron por los del nuevo cliente sin alterar el diseño aprobado.
+- Cuando el cliente entregue una imagen de contexto, ubicarla inmediatamente después del bloque `Contexto del Proyecto / Project Context`, centrada y adaptable, sin romper el ancho del documento.
 - Mantener HTML y JavaScript sincronizados: nombre, precio, cantidad, cálculo y payload deben coincidir.
 - Preservar UTF-8 de extremo a extremo. Rechazar mojibake como `Ã`, `Â` o `ðŸ`.
 
