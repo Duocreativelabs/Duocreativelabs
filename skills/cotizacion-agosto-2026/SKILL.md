@@ -87,8 +87,10 @@ Guardar en `TXT` un archivo UTF-8 siguiendo el formato `FICHA DE CLIENTE INTERNO
 - historial de cotizaciones sin borrar entradas anteriores;
 - servicios seleccionados y cantidades;
 - subtotal, método efectivo, monto de hoy y saldo;
-- enlace de Stripe;
+- enlace de Stripe una sola vez, dentro de `DETALLE DE LA SELECCIÓN ACTUAL`;
 - estado exacto: sesión creada y pago pendiente de confirmación.
+
+El historial funciona como desglose comercial: cada entrada conserva fecha, folio, servicios, subtotal, modalidad, monto solicitado, saldo y estado. No insertar URLs de Stripe dentro de `HISTORIAL DE COTIZACIONES`, ni repetir allí la sección actual completa.
 
 ### 7. Verificar con dos pruebas
 
