@@ -456,11 +456,7 @@
                                 <p style="margin-bottom: 12px; color: var(--black); font-weight: 600;">We charge $100 for each optimization of each selected platform. We optimize and configure in detail:</p>
                                 <ul style="margin-bottom: 15px;">
                                     <li><strong>Photos & Graphics:</strong> High-quality profile pictures and cover images adjustment.</li>
-                                    <li><strong>Cover / Intro Videos:</strong> Integration and op…7020 tokens truncated…ving money on the table and attracting the wrong type of client.</p>
-                <p>Different decisions are the only ones that bring different results. If you are ready to stop competing on price and start positioning yourself as the undeniable authority in your area, the time is now. Approve this proposal so we can send you the official schedule and take that definitive leap toward the profitability Hebron Painting deserves.</p>
-            </div>
-            
-            <div style="display: flex; justify-content: center; align-items: center; gap: 120px; margin-top: 40px; margin-bottom: 0px; padding: 20px 20px 0px 20px;">
+                                    <li><strong>Cover / Intro Videos:</strong> Integration and op…7918 tokens truncated…x 20px;">
                 <img src="https://res.cloudinary.com/duolabs/image/upload/v1777332214/Firma_duo_lotjsy.png" alt="Duo Signature" style="height: 240px; opacity: 0.85;">
                 <img src="https://res.cloudinary.com/duolabs/image/upload/v1777332214/moneda-de-ORO_uvojyi.png" alt="Gold Coin Seal" style="height: 160px; opacity: 0.95;">
             </div>
@@ -474,6 +470,7 @@
         let items = {
             setup: { active: false, price: 500, type: 'onetime' },
             opt: { active: false, price: 0, type: 'onetime' },
+            gbp: { active: false, price: 300, type: 'onetime' },
             curso: { active: false, price: 800, type: 'onetime' },
             rrss_basico: { active: false, price: 500, type: 'monthly' },
             rrss_pro: { active: false, price: 700, type: 'monthly' },
@@ -504,6 +501,7 @@
             const displayAmounts = {
                 setup: items.setup.price,
                 opt: optCount * 100,
+                gbp: items.gbp.price,
                 curso: items.curso.price,
                 rrss_basico: items.rrss_basico.price,
                 rrss_pro: items.rrss_pro.price,
@@ -644,6 +642,8 @@
             let optCount = Object.values(selectedNetworks).filter(Boolean).length;
             let optTotal = items['opt'].active ? optCount * 100 : 0;
             
+            let gbpTotal = items['gbp'].active ? items['gbp'].price : 0;
+
             let cursoTotal = items['curso'].active ? items['curso'].price : 0;
 
             let monthlyTotal = 0;
@@ -656,7 +656,7 @@
             let bonus = items['setup'].active ? 200 : 0;
             
             // Subtotal logic: Setup + Monthly - Bonus (no pre-calculated GST)
-            let total = setupTotal + optTotal + cursoTotal + monthlyTotal + adsMonthly - bonus;
+            let total = setupTotal + optTotal + gbpTotal + cursoTotal + monthlyTotal + adsMonthly - bonus;
 
             // Dynamically show/hide payment selector depending on whether total is less than 1,000
             const paymentSelectorContainer = document.getElementById('payment-selector-container');
@@ -692,6 +692,7 @@
             // Update DOM breakdown table (always shows 100% of original catalog prices)
             const rowSetup = document.getElementById('row-total-setup');
             const rowOpt = document.getElementById('row-total-opt');
+            const rowGbp = document.getElementById('row-total-gbp');
             const rowCurso = document.getElementById('row-total-curso');
             const rowMonthly = document.getElementById('row-total-monthly');
             const rowRrss = document.getElementById('row-total-rrss');
@@ -700,6 +701,7 @@
             const valSetup = document.getElementById('val-total-setup');
             const valOpt = document.getElementById('val-total-opt');
             const valOptList = document.getElementById('val-total-opt-list');
+            const valGbp = document.getElementById('val-total-gbp');
             const valCurso = document.getElementById('val-total-curso');
             const valMonthly = document.getElementById('val-total-monthly');
             const lblRrss = document.getElementById('lbl-total-rrss');
@@ -729,6 +731,15 @@
                     valOptList.innerText = activeNets.join(', ');
                 } else {
                     rowOpt.style.display = 'none';
+                }
+            }
+
+            if (rowGbp) {
+                if (items['gbp'].active) {
+                    rowGbp.style.display = 'table-row';
+                    valGbp.innerText = "$" + gbpTotal.toFixed(2);
+                } else {
+                    rowGbp.style.display = 'none';
                 }
             }
 
