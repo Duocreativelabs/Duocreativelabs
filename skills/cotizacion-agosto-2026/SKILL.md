@@ -10,6 +10,8 @@ description: Crea, modifica, publica y valida cotizaciones interactivas de Duo C
 
 Reutilizar el sistema aprobado con Hebron Painting sin inventar otra arquitectura. Crear una cotización bilingüe desde la plantilla incluida, publicarla en una ruta propia de Webhub, conectar Stripe y guardar el freeze HTML y el TXT detallado en las carpetas privadas del cliente.
 
+Ruta canónica local de esta skill: `D:\Agentes\Skills\cotizacion-agosto-2026`. Usar esta copia como fuente para futuras actualizaciones; mantener otras copias solamente por compatibilidad.
+
 ## Datos obligatorios
 
 Antes de modificar o publicar, obtener o descubrir:
