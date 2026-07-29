@@ -1,3 +1,4 @@
+
 # Contrato operativo de Cotización Agosto 2026
 
 ## Sistema de referencia validado
@@ -23,7 +24,9 @@ El payload mínimo debe identificar cliente, folio, slug, idioma, selecciones y 
 - No confiar en precios enviados por el navegador.
 - Mantener `gbp` como servicio de pago único por `$300 CAD`, separado de la optimización de redes sociales.
 - Mantener `gbp_posts` como servicio mensual independiente de `$100 CAD` por 2 publicaciones para Google Business Profile. No confundirlo con blogs del sitio web.
-- Mantener una sola sección `MONTHLY RETAINER` que agrupe Social Media Automation, Mantención Meta Ads del primer mes y Mantención Meta Ads desde el segundo mes.
+- Repetir encabezados amarillos por bloque: tres `ONE-TIME SETUP` y tres `MONTHLY RETAINER`, cada uno con el nombre del servicio.
+- Las dos etapas de Mantención Meta Ads permanecen juntas bajo una misma cabecera.
+- El curso privado aparece al final, después de todos los servicios mensuales.
 - Mantener la imagen de contexto de Hebron debajo del texto del proyecto, centrada, responsiva y con el mismo tratamiento visual en ES/EN.
 - No aceptar dos planes mensuales simultáneos.
 - No aceptar anticipo si el subtotal es menor de `$1,000 CAD`.
