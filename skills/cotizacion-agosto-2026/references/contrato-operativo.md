@@ -21,6 +21,7 @@ El payload mínimo debe identificar cliente, folio, slug, idioma, selecciones y 
 ## Invariantes
 
 - No confiar en precios enviados por el navegador.
+- Mantener `gbp` como servicio de pago único por `$300 CAD`, separado de la optimización de redes sociales.
 - No aceptar dos planes mensuales simultáneos.
 - No aceptar anticipo si el subtotal es menor de `$1,000 CAD`.
 - No llamar “pagado” a una sesión de Checkout creada.
@@ -90,6 +91,7 @@ El enlace `Stripe Checkout` debe aparecer una sola vez en `DETALLE DE LA SELECCI
 Este es el checkpoint canónico aprobado:
 
 - HTML visual servido por Webhub, no JSON ni código escapado.
+- Google Business Profile aparece después de Optimización de Redes Sociales, con desglose propio y precio de `$300 CAD`.
 - Carrito acumulativo y plan mensual mutuamente excluyente.
 - Ticket visible en cada servicio seleccionado y total correcto.
 - Pago total obligatorio bajo `$1,000 CAD`; desde `$1,000 CAD`, pago completo o anticipo fijo de `$1,000 CAD`.
@@ -109,4 +111,11 @@ Prueba de referencia aprobada:
 - Enlaces Stripe en TXT: `1`; enlaces Stripe dentro del historial: `0`.
 - Freeze con `$1,400 CAD` y `PAGO TOTAL (100%)`.
 
-Las correcciones de Claudia son el único ajuste editorial pendiente. No asumirlas ni inventarlas; aplicarlas cuando el usuario entregue la lista.
+Corrección de Claudia incorporada:
+
+- Servicio `gbp`: personalización, modificación y upgrade de Google Business Profile.
+- Precio: `$300 CAD`, pago único.
+- Alcance: auditoría, información comercial, servicios/categorías, identidad visual, optimización local, reseñas/comunicación, configuración técnica y upgrade general.
+- Ejecución n8n `23812`: subtotal `$300`, solicitud de anticipo normalizada a pago completo, TXT/HTML subidos, un solo enlace Stripe y freeze estático correcto.
+
+No asumir otras correcciones de Claudia; aplicarlas cuando el usuario entregue la lista.
