@@ -84,3 +84,29 @@ El enlace `Stripe Checkout` debe aparecer una sola vez en `DETALLE DE LA SELECCI
 - Drive restringido y con permisos mínimos.
 - Confirmación final de pago mediante webhook firmado de Stripe.
 - Pruebas sin borrar workflows, credenciales, ejecuciones ni archivos reales.
+
+## Definición de terminado
+
+Este es el checkpoint canónico aprobado:
+
+- HTML visual servido por Webhub, no JSON ni código escapado.
+- Carrito acumulativo y plan mensual mutuamente excluyente.
+- Ticket visible en cada servicio seleccionado y total correcto.
+- Pago total obligatorio bajo `$1,000 CAD`; desde `$1,000 CAD`, pago completo o anticipo fijo de `$1,000 CAD`.
+- Freeze HTML estático con servicios, total, pago de hoy, saldo y modalidad efectiva.
+- TXT detallado sin mojibake.
+- Enlace de Stripe una sola vez en `DETALLE DE LA SELECCIÓN ACTUAL`.
+- Historial con servicios, subtotal, modalidad, pago solicitado, saldo y estado, sin repetir el checkout.
+- TXT y freeze guardados en las carpetas privadas correctas.
+- Workflow existente reutilizado, activo y con ejecución exitosa.
+
+Prueba de referencia aprobada:
+
+- Ejecución n8n `23803`.
+- Setup `$500` + Facebook/Instagram `$200` + Plan Pro `$700`.
+- Subtotal `$1,400 CAD`, pago completo.
+- TXT y HTML subidos con éxito.
+- Enlaces Stripe en TXT: `1`; enlaces Stripe dentro del historial: `0`.
+- Freeze con `$1,400 CAD` y `PAGO TOTAL (100%)`.
+
+Las correcciones de Claudia son el único ajuste editorial pendiente. No asumirlas ni inventarlas; aplicarlas cuando el usuario entregue la lista.
