@@ -142,6 +142,9 @@ Corrección visual y comercial posterior:
 - El setup GBP de `$300 CAD` incluye como promoción las primeras 2 publicaciones de Google Business Profile.
 - La continuidad es un producto mensual separado: `gbp_posts`, 2 publicaciones por `$100 CAD/mes`.
 - Los posts GBP nunca deben describirse como blogs del sitio web.
+- Dentro de `HTML page`, la miniatura oficial de Hebron usa `Untitled_vrhufw.png`, conserva su proporción natural y se escala sin recorte.
+- La URL visible de `hebronpainting.ca` es un hipervínculo real con apertura segura en pestaña nueva.
+- El texto `On-page score` debe permanecer completamente centrado dentro del círculo, sin desbordamiento.
 
 No asumir otras correcciones de Claudia; aplicarlas cuando el usuario entregue la lista.
 
