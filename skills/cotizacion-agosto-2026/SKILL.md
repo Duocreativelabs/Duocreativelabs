@@ -108,6 +108,10 @@ En ambas comprobar:
 - archivos en las dos carpetas privadas correctas;
 - URL Webhub con HTTP 200 y vista visual, no JSON ni código escapado.
 
+### 8. Conservar el checkpoint de entrega
+
+Considerar la entrega lista únicamente cuando se cumpla la definición de terminado de `references/contrato-operativo.md`. No degradar un elemento ya validado al incorporar correcciones posteriores. Aplicar las observaciones de Claudia de forma quirúrgica, una vez recibidas, y repetir las pruebas afectadas.
+
 ## Cierre
 
 Actualizar la memoria del cliente y `BITACORA_GOKU.md`. Informar URL pública de la cotización, rutas locales, carpetas privadas y pruebas realizadas.
